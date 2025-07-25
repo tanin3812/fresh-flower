@@ -364,33 +364,143 @@ header{
 
 /* Responsive media query for mobile device */
 @media screen and (max-width: 576px) {
-    .nav-container{
-        ;
-    }
-   .logo {
-    width: 100px;
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-    .hide{
+  header, .our-plants, .plants-lover, .deals, .join, .footer{
+    padding: 10px;
+  }
+  .nav-container{
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .hide{
     display: none;
   }
   .banner{
     flex-direction: column-reverse;
     align-items: center;
-    margin-top: 60px;
-    gap: 30px;
   }
-    .banner-text {
+  .banner-text {
     width: 100%;
-    padding: 0 20px;
+    margin-top: 30px;
+  }
+  .banner-img img{
+    width: 100%;
   }
 
   .banner-title {
-    font-size: 36px;
+    font-size: 2rem;
+  }
+  .banner-description {
+    font-size: 1rem;
   }
 
-  .banner-description {
-    font-size: 16px;
+
+
+  .our-plants{
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  .plants-card-container{
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    box-sizing: border-box;
+    gap: 10px;
+    padding: 0 5px; 
+    overflow-x: hidden;
+  }
+  .plant-card .plant-btn{
+    padding: 10px 20px;
+  }
+
+
+  .plants-lover{
+    flex-direction: column;
+    margin: 50px 10px;
+    gap: 20px;
+  }
+  .plants-lover-img {
+    width: 100%;
+  }
+  .plants-lover-img .lover-badge {
+    display: none;
+  }
+  .plants-lover-content {
     max-width: 100%;
   }
+  .plants-lover-title{
+    font-size: 2rem;
+  }
+  .plants-lover-title br{
+    display: none;
+  }
+  .lover-description{
+    font-size: 1rem;
+  }
 
+
+  
+  .deals-img-container{
+    flex-direction: column;
+    width: 100%;
+  }
+  .vertical-collage {
+    flex-direction: column;
+  }
+  .zabo {
+    flex: none;
+    width: 100%;
+  }
+  .deals-title {
+    font-size: 2rem;
+  }
+  .deals-description {
+    font-size: 1rem;
+    margin: 10px auto 40px;
+  }
+  .deals-img {
+    min-height: 150px;
+    padding: 20px;
+  }
+  .deals-discount, .zabo-discount {
+    font-size: 1.2rem;
+  }
+  .shop-now, .zabo-btn {
+    font-size: 1rem;
+  }
+
+
+  .join-img {
+    padding: 80px 20px;
+  }
+  .join-title{
+    font-size: 2rem;
+  }
+  .join-input{
+    min-width: 200px;
+    width: 60%;
+  }
+  .join-btn {
+    width: 100%;
+    padding: 15px;
+  }
+
+
+  .footer-container{
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .footer-lists {
+    flex-direction: column;
+    gap: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .footer-lists ul li{
+    margin-bottom: 10px;
+  }
 }
