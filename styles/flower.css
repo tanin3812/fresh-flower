@@ -22,10 +22,12 @@
     color: #E95A08;
 }
 
+
 /* header styles */
 header{
     padding: 50px 150px;
 }
+
 /* navbar styles */
 .nav-container{
     max-width: 1440px;
@@ -67,6 +69,7 @@ header{
     font-size: 1.3rem;
     max-width: 500px;
 }
+
 
 /* plants section style */
 .our-plants{
@@ -117,6 +120,7 @@ header{
   cursor: pointer;
 }
 
+
 /* plants lover styles */
 .plants-lover{
   margin: 200px 150px 100px 150px;
@@ -143,7 +147,6 @@ header{
 .lover-badge{
   filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 1.5));
 }
-
 .plants-lover-content{
   flex: 1;
   max-width: 570px;
@@ -180,20 +183,17 @@ header{
   margin: 20px auto 80px;
   font-size: 1.3rem;
 }
-
 .deals-img-container{
   display: flex;
   gap: 25px;
   align-items: stretch;
 }
-
 .vertical-collage{
   display: flex;
   flex-direction: column;
   gap: 25px;
   flex: 1;
 }
-
 .zabo{
   flex: 2;
   display: flex;
@@ -229,7 +229,6 @@ header{
   font-weight: 700;
   margin-bottom: 10px;
 }
-
 .shop-now{
   display: inline-block;
   font-size: 0.8rem;
@@ -251,7 +250,6 @@ header{
     margin-top: 5px;
     color: white
 }
-
 .deals-img::before{
   content: "";
   position: absolute;
@@ -266,7 +264,6 @@ header{
 .join{
   margin-top: 120px;
 }
-
 .join-img{
   background-size: cover;
   background-position: center;
@@ -299,6 +296,7 @@ header{
   padding: 18px 50px;
   cursor: pointer;
 }
+
 
 /* footer styles */
 .footer{
@@ -337,7 +335,6 @@ header{
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
 }
-
 .social-media{
   display: flex;
   gap: 25px;
@@ -362,8 +359,10 @@ header{
 
 
 
+
+
 /* Responsive media query for mobile device */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px){
   *{
     margin: 0;
     padding: 0;
@@ -390,11 +389,10 @@ header{
   .banner-img img{
     width: 100%;
   }
-
-  .banner-title {
+  .banner-title{
     font-size: 2rem;
   }
-  .banner-description {
+  .banner-description{
     font-size: 1rem;
   }
 
@@ -418,18 +416,19 @@ header{
   }
 
 
+
   .plants-lover{
     flex-direction: column;
     margin: 50px 10px;
     gap: 20px;
   }
-  .plants-lover-img {
+  .plants-lover-img{
     width: 100%;
   }
-  .plants-lover-img .lover-badge {
+  .plants-lover-img .lover-badge{
     display: none;
   }
-  .plants-lover-content {
+  .plants-lover-content{
     max-width: 100%;
   }
   .plants-lover-title{
@@ -448,25 +447,25 @@ header{
     flex-direction: column;
     width: 100%;
   }
-  .vertical-collage {
+  .vertical-collage{
     flex-direction: column;
   }
-  .zabo {
+  .zabo{
     flex: none;
     width: 100%;
   }
-  .deals-title {
+  .deals-title{
     font-size: 2rem;
   }
-  .deals-description {
+  .deals-description{
     font-size: 1rem;
     margin: 10px auto 40px;
   }
-  .deals-img {
+  .deals-img{
     min-height: 150px;
     padding: 20px;
   }
-  .deals-discount, .zabo-discount {
+  .deals-discount, .zabo-discount{
     font-size: 1.2rem;
   }
   .shop-now, .zabo-btn {
@@ -474,7 +473,8 @@ header{
   }
 
 
-  .join-img {
+
+  .join-img{
     padding: 80px 20px;
   }
   .join-title{
@@ -484,17 +484,18 @@ header{
     min-width: 200px;
     width: 60%;
   }
-  .join-btn {
+  .join-btn{
     width: 100%;
     padding: 15px;
   }
 
+  
 
   .footer-container{
     flex-direction: column;
     margin-bottom: 50px;
   }
-  .footer-lists {
+  .footer-lists{
     flex-direction: column;
     gap: 0;
     margin-top: 50px;
