@@ -10,9 +10,6 @@
     "wdth" 100;
 }
 
-/* .bg-color{
-    background-color: rgba(0, 0, 0, 0.05);
-} */
 
 /* shared styles */
 .display-flex{
@@ -234,8 +231,8 @@ header{
   font-size: 14px;
   font-weight: 500;
   color: white;
-  text-decoration: underline;
-  transition: color 0.3s ease;
+  text-decoration: none;
+  border-bottom: 2px solid white;
 }
 .zabo-discount{
     font-size: 2.5rem;
@@ -245,7 +242,8 @@ header{
 .zabo-btn{
     font-size: 1.8rem;
     font-weight: 500;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 3px solid white;
     margin-top: 5px;
     color: white
 }
@@ -259,7 +257,43 @@ header{
   z-index: 0;
 }
 
+/* join section styles */
+.join{
+  margin-top: 120px;
+}
 
+.join-img{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 230px 50px;
+  text-align: center;
+}
+.join-content {
+  margin: 0 auto;
+}
+.join-title{
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 20px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+}
+.join-input{
+  padding: 18px 24px;
+  min-width: 600px;
+  border: none;
+}
+.join-btn{
+  background-color: #E95A08;
+  border: none;
+  color: white;
+  padding: 18px 50px;
+  cursor: pointer;
+}
 
 
 
