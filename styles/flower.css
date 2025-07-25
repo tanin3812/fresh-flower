@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -363,6 +365,7 @@ header{
 
 /* Responsive media query for mobile device */
 @media screen and (max-width: 576px){
+  
   *{
     margin: 0;
     padding: 0;
@@ -371,6 +374,7 @@ header{
   header, .our-plants, .plants-lover, .deals, .join, .footer{
     padding: 10px;
   }
+
   .nav-container{
     justify-content: space-between;
     gap: 20px;
@@ -403,13 +407,12 @@ header{
     text-align: center;
     width: 100%;
   }
-  .plants-card-container{
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-    box-sizing: border-box;
+  .plants-card-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
-    padding: 0 5px; 
-    overflow-x: hidden;
+    width: 100%;
+    padding: 0 5px;
+    box-sizing: border-box;
   }
   .plant-card .plant-btn{
     padding: 10px 20px;
